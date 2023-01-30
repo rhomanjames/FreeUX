@@ -752,9 +752,11 @@ a {
       flex-direction: column;
     }
 
+
     .gray-bg {
         flex-direction: column-reverse;
     }
+
 
     .content-cards-div-grid, .content-cards-div-grid-3-fr  {
         grid-template-columns: 1fr 1fr;
@@ -818,6 +820,27 @@ a {
         text-align: center;
         padding: 100;
     }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0px;
+    }
+
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .content-card {
+        max-width: 80%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+  
     
     .content-cards-div-grid  {
         grid-template-columns: 1fr ;
